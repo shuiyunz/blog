@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>个人博客</title>
+  <link rel="stylesheet" href="./2.css">
+</head>
+
+<body>
+  <div class="left-container">
+    <!-- 个人资料区 -->
+    <section class="profile-section">
+      <img src="./face.jpg" alt="头像" class="avatar">
+      <h1>张三</h1>
+      <p>前端开发者 | 技术爱好者</p>
+
+      <p>
+        这里是个人简介文字这里是个人简介文字这里是个人简介文字这里是个人简介文字这里是个人简介文字这里是个人简介文字这里是个人简介文字这里是个人简介文字这里是个人简介文字这里是个人简介文字这里是个人简介文字这里是个人简介文字这里是个人简介文字这里是个人简介文字这里是个人简介文字这里是个人简介文字这里是个人简介文字这里是个人简介文字这里是个人简介文字这里是个人简介文字这里是个人简介文字这里是个人简介文字这里是个人简介文字这里是个人简介文字这里是个人简介文字这里是个人简介文字这里是个人简介文字...
+      </p>
+    </section>
+
+    <!-- 生活动态区 -->
+    <section class="life-updates">
+      <!-- 朋友圈区域 (1/3) -->
+      <div class="feed-column">
+        <div class="feed-item">
+          <div class="feed-header">
+            <img src="./face.jpg" class="mini-avatar" alt="好友头像">
+            <div class="feed-info">
+              <h4>张三</h4>
+              <span class="feed-time">2小时前</span>
+            </div>
+          </div>
+          <p class="feed-content">今天的代码写得特别顺利！</p>
+          <div class="feed-actions">
+            <button class="like-btn">👍 赞</button>
+            <button class="comment-btn">💬 评论</button>
+          </div>
+        </div>
+        <!-- 更多朋友圈动态 -->
+      </div>
+
+      <!-- 轮播图区域 (2/3) -->
+      <div class="carousel-column">
+        <div class="carousel-container">
+          <div class="carousel-slide active">
+            <img src="./humian.jpg" alt="轮播图1">
+          </div>
+          <div class="carousel-slide">
+            <img src="./tkzc.jpg" alt="轮播图2">
+          </div>
+          <div class="carousel-nav">
+            <span class="nav-dot active"></span>
+            <span class="nav-dot"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- 项目介绍区 -->
+  <section class="project-section">
+    <!-- 新增Tab栏 -->
+    <div class="tab-bar">
+      <button class="tab-btn active" data-tab="project">项目</button>
+      <button class="tab-btn" data-tab="study">学习</button>
+    </div>
+
+    <!-- 项目内容 -->
+    <div class="tab-content active" data-tab="project">
+      <div class="project-card">
+        <h2>个人项目一</h2>
+        <p>项目描述文字...</p>
+      </div>
+      <div class="project-card">
+        <h2>个人项目二</h2>
+        <p>项目描述文字...</p>
+      </div>
+    </div>
+    
+    <!-- 学习内容 -->
+    <div class="tab-content" data-tab="study">
+      <a href="https://www.bilibili.com/video/BV1qW4y1a7fU" target="_blank" class="video-container">
+        <img src="https://i1.hdslb.com/bfs/archive/ec0c459b3c0c19091624de213ca05df887a8f877.png@672w_378h_1c.webp" 
+             alt="Python教程封面"
+             class="video-thumbnail">
+        <div class="video-details">
+          <h2 class="video-title">黑马程序员python教程，8天python从入门到精通，学p…</h2>
+          <div class="up-info">
+            <span class="up-icon"></span>
+            <span>黑马程序员</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="./2.js"></script>
+
+</body>
+
+</html>
