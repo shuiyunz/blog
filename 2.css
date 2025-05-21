@@ -327,3 +327,50 @@ body {
   color: #666;
 }
 
+/* 起点效果 */
+.book-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  padding: 10px;
+}
+
+.book-cover {
+  width: 120px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.book-details {
+  flex: 1;
+}
+
+.book-title {
+  font-size: 22px;
+  margin: 0 0 8px 0;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.unread-dot {
+  width: 8px;
+  height: 8px;
+  background: red;
+  border-radius: 50%;
+}
+
+.book-author,
+.book-last-chapter {
+  font-size: 18px;
+  color: #666;
+  margin: 5px 0;
+}
+
+.more-options {
+  font-size: 20px;
+  color: #666;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
