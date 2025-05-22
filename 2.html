@@ -12,13 +12,23 @@
   <div class="left-container">
     <!-- 个人资料区 -->
     <section class="profile-section">
-      <img src="./face.jpg" alt="头像" class="avatar">
-      <h1>张三</h1>
-      <p>前端开发者 | 技术爱好者</p>
+      <div class="profile-header">
+        <img src="./face.jpg" alt="头像" class="avatar">
+        <div class="profile-info">
+          <h1>水云</h1>
+          <p>前端开发者 | 技术爱好者</p>
+        </div>
+      </div>
 
-      <p>
-        这里是个人简介文字这里是个人简介文字这里是个人简介文字这里是个人简介文字这里是个人简介文字这里是个人简介文字这里是个人简介文字这里是个人简介文字这里是个人简介文字这里是个人简介文字这里是个人简介文字这里是个人简介文字这里是个人简介文字这里是个人简介文字这里是个人简介文字这里是个人简介文字这里是个人简介文字这里是个人简介文字这里是个人简介文字这里是个人简介文字这里是个人简介文字这里是个人简介文字这里是个人简介文字这里是个人简介文字...
-      </p>
+      <div class="social-links">
+        <p>
+          b站账号：<img src="./humian.jpg" alt=""><br>
+          抖音账号：<img src="./face.jpg" alt=""><br>
+          xhs账号：<img src="./tkzc.jpg" alt=""><br>
+          快手账号：<img src="./face.jpg" alt=""><br>
+          邮箱：3356266048@qq.com
+        </p>
+      </div>
     </section>
 
     <!-- 生活动态区 -->
@@ -69,16 +79,24 @@
     </div>
 
     <!-- 项目内容 -->
-    <div class="tab-content active" data-tab="project">
-      <div class="project-card">
-        <h2>个人项目一</h2>
-        <p>项目描述文字...</p>
+
+<div class="tab-content active" data-tab="project">
+  <div class="app-container">
+    <img src="tkzc.jpg" alt="应用图标" class="app-icon">
+    <div class="app-info">
+      <h2 class="app-title">腾讯欢乐斗地主</h2>
+      <div class="app-meta">
+        <span class="star">&#9733;</span> 3.8 | ↓2.7亿次 | 396M
       </div>
-      <div class="project-card">
-        <h2>个人项目二</h2>
-        <p>项目描述文字...</p>
-      </div>
+      <div class="app-description">斗地主·多人对战·腾讯游戏</div>
     </div>
+    <a href="#" class="install-button">安装</a>
+  </div>
+</div>
+
+
+
+
 
     <!-- 学习内容 -->
     <div class="tab-content" data-tab="study">
@@ -88,31 +106,23 @@
         <div class="video-details">
           <h2 class="video-title">黑马程序员python教程，8天python从入门到精通，学p…</h2>
           <div class="up-info">
-            <span class="up-icon"></span>
-            <span>黑马程序员</span>
+            <!-- <span class="up-icon"></span> -->
+            <span>up主 ： 黑马程序员</span>
           </div>
         </div>
       </a>
 
-      <div class="book-container">
-        <img src="https://bookcover.yuewen.com/qdbimg/349573/1017281778/150.webp" 
-             alt="绍宋封面" 
-             class="book-cover">
+      <a href="https://www.qidian.com/book/1017281778/" class="book-container" target="_blank">
+        <img src="https://bookcover.yuewen.com/qdbimg/349573/1017281778/150.webp" alt="绍宋封面" class="book-cover">
         <div class="book-details">
           <div class="book-title">
             绍宋 <span class="unread-dot"></span>
           </div>
           <div class="book-author">
-            李晓楠 · 169话未读
-          </div>
-          <div class="book-last-chapter">
-            2天前 · 第168话164破绽
+            作者 ： 李晓楠
           </div>
         </div>
-        <div class="more-options">
-          · · ·
-        </div>
-      </div>
+      </a>
     </div>
   </section>
   <script src="./2.js"></script>
